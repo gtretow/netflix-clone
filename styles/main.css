@@ -8,9 +8,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*Base*/
+
 body {
   background: var(--preta);
   font-family: "Times New Roman", Times, serif;
+  color: white;
 }
 
 header .container {
@@ -24,7 +27,7 @@ header .logo {
   color: var(--vermelho);
   font-family: "Arial Black";
   font-size: 40px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 header nav a {
@@ -35,4 +38,18 @@ header nav a {
 
 header nav a:hover {
   color: #fff;
+}
+
+/*Filme Principal*/
+
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/img/john3.jpg);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
